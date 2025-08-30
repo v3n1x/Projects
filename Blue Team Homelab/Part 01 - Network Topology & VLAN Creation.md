@@ -24,7 +24,7 @@ VLAN 99 (Malware Analysis): An isolated environment designed for safe malware te
 
 **And here is the Network Topology:**
 
-![[Topology.png]]
+![Network Topology](Assets/Asset01.png)
 
 **VLAN Creation:** 
 
@@ -48,7 +48,7 @@ All four networks are configured as **Host-only**, with DHCP disabled, and subne
 
 Here is the final result: 
 
-![[VLAN CREATION.png]]
+![Network Topology](Assets/Asset02.png)
 
 ### Tools Utilized
 
