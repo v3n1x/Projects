@@ -60,7 +60,7 @@ Here is the final result:
     
 - **Virtual Machines** – used throughout the lab environment
     
-- **Notion & Obsidian** – for maintaining notes in Markdown format
+- **Obsidian** – for maintaining notes in Markdown format
 
 ### Next Steps
 
