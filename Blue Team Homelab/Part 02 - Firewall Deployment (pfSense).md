@@ -88,7 +88,7 @@ Navigate to **Interfaces > Interface Assignments** and add all interfaces. For e
 - **WAN**  
     Leave this as default — no changes required.
 
-![[Asset03.png]]
+![Asset03.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset03.png)
 
     
 - **Management**  
