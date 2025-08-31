@@ -121,6 +121,10 @@ After we're done, we should get an interface that looks like this:
 
 ![Asset09.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset09.png)
 
+Below is a screenshot from the pfSense VM in VMware, showing the assigned IP addresses for each interface (WAN, Management, Corporate VLANs, Security, and Isolation).
+
+![Asset11.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset11.png)
+
 ---
 ### Outbound NAT Configuration
 
