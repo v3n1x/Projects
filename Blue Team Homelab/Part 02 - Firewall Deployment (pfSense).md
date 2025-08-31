@@ -158,6 +158,4 @@ The final outbound NAT configuration should look like this:
 
 ---
 
-With the firewall configuration complete, we can now move on to adding machines to the network. Below is a screenshot from the pfSense VM in VMware, showing the assigned IP addresses for each interface (WAN, Management, Corporate VLANs, Security, and Isolation).
-
-![Asset11.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset11.png)
+With the firewall configuration complete, we can now move on to adding machines to the network. 
