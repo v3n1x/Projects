@@ -94,32 +94,32 @@ Navigate to **Interfaces > Interface Assignments** and add all interfaces. For e
 - **Management**  
     Same as above — no modifications needed.
     
-![[Asset04.png]]
+![Asset04.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset04.png)
 
 - **Corporate_WAN_VLAN10**  
     Allow traffic within VLAN 10 and permit traffic going to VLAN 20.
 
-![[Asset05.png]]
+![Asset05.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset05.png)
 
 - **Corporate_LAN_VLAN20**  
     Apply the same rules as VLAN 10, since this network will simulate access to the fake internet.
 
-![[Asset06.png]]
+![Asset06.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset06.png)
 
 - **Security_VLAN50**  
     Block access to **WAN**, **Management**, and **Corporate_WAN_VLAN10**.  
     Allow traffic to all other destinations (Internet, Isolated VLAN, and Corporate LAN).
 
-![[Asset07.png]]
+![Asset07.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset07.png)
 
 - **Isolation VLAN**  
     Block all traffic entirely.
 
-![[Asset08.png]]
+![Asset08.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset08.png)
 
 After we're done, we should get an interface that looks like this:
 
-![[Asset09.png]]
+![Asset09.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset09.png)
 
 ---
 ### Outbound NAT Configuration
@@ -154,10 +154,10 @@ To set it up we need to navigate to:
 
 The final outbound NAT configuration should look like this:
 
-![[Asset10.png]]
+![Asset10.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset10.png)
 
 ---
 
 With the firewall configuration complete, we can now move on to adding machines to the network. Below is a screenshot from the pfSense VM in VMware, showing the assigned IP addresses for each interface (WAN, Management, Corporate VLANs, Security, and Isolation).
 
-![[Asset11.png]]
+![Asset11.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset11.png)
