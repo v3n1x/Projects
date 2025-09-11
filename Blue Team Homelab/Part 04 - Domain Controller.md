@@ -1,8 +1,8 @@
-08.09.2025
+08.09.2025 11:32
 
 We begin by downloading the Windows Server 2019 ISO. The trial provides 180 days of usage. After installation, it’s a good idea to take a VMware snapshot, then switch the network adapter to VLAN 20. Once that’s done, we assign a static IP address, rename the machine, and restart so the changes take effect.
-![screenshot17],
-![screenshot18]
+![Asset17.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset17.png)  
+![Asset18.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset18.png)  
 
 ---
 
@@ -55,3 +55,5 @@ To ensure proper workstation management, we configure a local admin policy. In _
 Finally, we set up shared resources. On the C: drive, create the required folders ![screenshot39], then assign permissions so each group has the appropriate read/write access ![screenshot40].
 
 ---
+
+With that, the domain controller is fully configured.
