@@ -1,5 +1,6 @@
-19.09.2025
+19.09.2025 19:09
 
+# DVWA Installation on Ubuntu Server 22.04 LTS
 ## Requirements
 
 -   Dual core Processor (2 GHz)
@@ -10,6 +11,8 @@
 
 The installation is simple, we are going with the default, do not forget to download OpenSSH.
 
+![Asset41.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset41.png) 
+
 Now we have a server set up and ready.
 
 We can run the following command:
@@ -17,6 +20,7 @@ We can run the following command:
 ``` bash
 sudo apt update
 ```
+![Asset42.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset42.png) 
 
 ## Install Required Tools and DVWA
 
@@ -31,6 +35,7 @@ sudo wget https://github.com/digininja/DVWA/archive/master.zip
 sudo unzip master.zip
 mv DVWA-master DVWA
 ```
+![Asset43.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset43.png) 
 
 ## Network Configuration
 
@@ -79,6 +84,7 @@ First start the Apache service:
 sudo systemctl start apache2
 sudo systemctl status apache2
 ```
+![Asset44.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset44.png) 
 
 After that copy the DVWA config file:
 
@@ -104,6 +110,9 @@ flush privileges;
 exit;
 ```
 
+![Asset45.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset45.png) 
+![Asset46.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset46.png) 
+
 Test the login:
 
 ``` bash
@@ -120,6 +129,8 @@ You should now be able to visit:
 Login using:
 - Username: `admin`
 - Password: `password`
+
+![Asset47.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset47.png) 
 
 ## Other DVWA Configuration
 
@@ -138,6 +149,8 @@ and allow both:
     allow_url_fopen = On
     allow_url_include = On
 
+![Asset48.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset48.png) 
+
 ## Apache Configuration
 
 Now we want to set up DNS for the web application.
@@ -148,6 +161,7 @@ cd /etc/apache2/sites-available/
 sudo cp 000-default.conf system.null.corp.conf
 sudo nano system.null.corp.conf
 ```
+![Asset49.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset49.png) 
 
 Now enable the new configuration:
 
@@ -156,13 +170,20 @@ sudo a2ensite system.null.corp.conf
 sudo a2dissite 000-default.conf
 sudo systemctl restart apache2
 ```
+![Asset50.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset50.png) 
 
 Then edit the `/etc/hosts` file and add your domain.
+
+![Asset51.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset51.png) 
 
 On the host machine (Windows), edit the file located at:
 `C:\Windows\System32\drivers\etc\hosts`
 
+![Asset52.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset52.png) 
+
 Open Notepad as Administrator and add the IP of the website.
+
+![Asset53.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset53.png) 
 
 Now you can access it by the FQDN from your host machine.
 
