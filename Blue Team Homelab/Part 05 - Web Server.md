@@ -178,13 +178,12 @@ Then edit the `/etc/hosts` file and add your domain.
 
 On the host machine (Windows), edit the file located at:
 `C:\Windows\System32\drivers\etc\hosts`
+Open Notepad as Administrator and add the IP of the website.
 
 ![Asset52.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset52.png) 
 
-Open Notepad as Administrator and add the IP of the website.
+Now you can access it by the FQDN from your host machine.
 
 ![Asset53.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset53.png) 
-
-Now you can access it by the FQDN from your host machine.
 
 ## Done
