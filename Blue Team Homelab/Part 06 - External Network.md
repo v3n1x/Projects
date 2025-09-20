@@ -45,6 +45,7 @@ Now let's try to access the DVWA from the Kali Linux machine (external side) by 
 
 Since it has worked, let's try to SSH the server
 
+![Asset57.png](https://github.com/v3n1x/Projects/blob/main/Assets/Asset57.png)  
 
 ---
 
