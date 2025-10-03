@@ -35,6 +35,8 @@ The following virtual networks are defined within **VMware Virtual Network Edito
 - **vmnet20** – Host-only
     
 - **vmnet50** – Host-only
+
+- **vmnet88** – Host-only (Port Mirroring)
     
 - **vmnet99** – Host-only
     
