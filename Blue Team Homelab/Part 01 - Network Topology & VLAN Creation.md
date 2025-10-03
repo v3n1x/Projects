@@ -48,7 +48,7 @@ All four networks are configured as **Host-only**, with DHCP disabled, and subne
 
 Here is the final result: 
 
-![Network Topology](https://github.com/v3n1x/Projects/blob/main/Assets/Asset02.png)
+![Network Topology](https://github.com/v3n1x/Projects/blob/main/Assets/Asset2.png)
 
 ### Tools Utilized
 
