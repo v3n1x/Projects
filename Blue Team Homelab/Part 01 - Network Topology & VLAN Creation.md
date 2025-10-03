@@ -46,7 +46,7 @@ Subnet IPs are assigned according to the addressing scheme defined in the table 
 
 #### Final Configuration Overview
 
-All four networks are configured as **Host-only**, with DHCP disabled, and subnet ranges applied based on the lab design.
+All five networks are configured as **Host-only**, with DHCP disabled, and subnet ranges applied based on the lab design.
 
 Here is the final result: 
 
